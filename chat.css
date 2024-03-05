@@ -1,0 +1,39 @@
+body
+.big-text {
+    font-size:  3em;
+    .center-text {
+        text-align: center;
+    }
+    .form-container {
+        position: absolute;
+        top:  50%;
+        left:  50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      form {
+        width:  50%;
+      }
+      footer {
+        text-align: center;
+        padding:  5px;
+        background-color: #abbaba;
+        color: #000;
+      }
+      .footer-content {
+        width:  100%;
+      }
+      
+      .alignright {
+        float: right; /* Flotte le texte à droite */
+        display: inline-block; /* Permet l'utilisation de vertical-align */
+        vertical-align: top; /* Aligne le texte en haut */
+      }
+      
+      /* Nettoyage pour éviter les problèmes de flottement */
+      .footer-content::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}

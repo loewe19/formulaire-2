@@ -1,0 +1,13 @@
+body
+ {
+    background-color: #000000; /* Le fond de la page sera noir */
+}
+p {
+    color: rgb(255,  0,  0); /* Couleur décomposée en RGB */
+  }
+.big-text {
+    font-size:  3em; 
+    .center-text {
+        text-align: center;
+    }
+}

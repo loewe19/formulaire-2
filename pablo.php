@@ -25,8 +25,9 @@ if(isset($_POST['username']) && isset($_POST['password']))
  if($count!=0) // nom d'utilisateur et mot de passe correctes
  {
  $_SESSION['username'] = $username;
- header('Location: index.php');
+ header('Location: bullet.php');
 }
  }
+}
 mysqli_close($db); // fermer la connexion
 ?>

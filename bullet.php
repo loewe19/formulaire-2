@@ -31,6 +31,8 @@ http://www.templatemo.com/tm-492-app-starte
 
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+     <required op.php>
+     <img src="facebook_cover_photo_2.png" alt="Logo de votre entreprise" width="150">
 
 
 <!-- PRE LOADER -->
@@ -106,8 +108,8 @@ http://www.templatemo.com/tm-492-app-starte
 
                <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.4s">
                    <h2>Our Mobile App Team</h2>
-                   <h3 class="wow fadeInUp" data-wow-delay="0.8s">App Starter page is provided by templatemo that can be used for any site.</h3>
-                   <p class="wow fadeInUp" data-wow-delay="0.4s">This is a responsive <a href="https://plus.google.com/+templatemo" target="_blank">HTML CSS template</a> designed for your mobile app pages. You can modify and use it to fit your needs.</p>
+                   <h3 class="wow fadeInUp" data-wow-delay="0.8s"></h3>
+                   <p class="wow fadeInUp" data-wow-delay="0.4s">This is a responsive <a href="https://plus.google.com/+templatemo" target="_blank"></a> </p>
                </div>
 
                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
@@ -150,7 +152,7 @@ http://www.templatemo.com/tm-492-app-starte
           <div class="row">
 
                <div class="col-md-offset-2 col-md-8 col-sm-12">
-                    <h2 class="wow fadeInUp" data-wow-delay="0.4s">Praesent tempor nec orci eu condimentum. Vestibulum varius lorem sed odio lacinia, ut efficitur tellus convallis. Phasellus convallis est nisi, sit amet accumsan ipsum elementum quis. Mauris ac sem mi.</h2>
+                    <h2 class="wow fadeInUp" data-wow-delay="0.4s"></h2>
                     <a href="#screenshot" class="wow fadeInUp section-btn btn btn-success smoothScroll" data-wow-delay="0.8s">Learn More</a>
                </div>
 
@@ -169,11 +171,12 @@ http://www.templatemo.com/tm-492-app-starte
                     <div class="section-title">
                          <h1>LOCALISATION</h1>
                          <p class="wow fadeInUp" data-wow-delay="0.8s">NOUS SOMME SITUER A TRADEX BORNE 10.</p>
-                    </div>
-               </div>
-
-               
-
+                         <!-- localisation Section -->
+<section id="localisation" class="tm-localisation">
+					<h1 class="tm-localisation-h1"></h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.918289635793!2d9.75384557478762!3d4.0370969959366505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610dbf176dc78d%3A0x97c77b35fdbc5772!2sMairie%20de%20Douala%203%C3%A8me!5e0!3m2!1sfr!2scm!4v1708176359560!5m2!1sfr!2scm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>     
+               </div>        
+               </div>  
 
 <!-- Pricing Section -->
 
@@ -250,10 +253,10 @@ http://www.templatemo.com/tm-492-app-starte
 
                <div class="col-md-offset-2 col-md-8 col-sm-12">
                     <div class="wow bounceIn section-title">
-                         <h2>Subscribe Newsletter</h2>
-                         <p class="wow fadeInUp" data-wow-delay="0.5s">Maecenas orci sem, mollis quis risus a, venenatis condimentum felis. Integer ut bibendum ipsum. Etiam a tristique sapien, ut dictum augue.</p>
+                         <h2>Subscribe Newsletter</h2></p>
                     </div>
                     <div class="wow fadeInUp newsletter-form" data-wow-delay="0.8s">
+                         <p class="wow fadeInUp" data-wow-delay="0.5s">
                          <form action="#" method="post">
                               <div class="col-md-8 col-sm-7">
                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your Email here">
@@ -278,9 +281,9 @@ http://www.templatemo.com/tm-492-app-starte
 
                <div class="col-md-8 col-sm-6">
                     <div class="wow fadeInUp footer-copyright" data-wow-delay="0.4s">
-                         <p>Copyright &copy; 2016 Your App Starter
+                         <p>Copyright &copy; 2024 
                          <span>||</span> 
-                         Design: <a href="https://plus.google.com/+templatemo" title="free css templates" target="_blank">Templatemo</a></p>
+                         Design: <a href="https://plus.google.com/+liv gaz" title="free css liv gaz" target="_blank">liv gaz</a></p>
                     </div>
                </div>
 
@@ -304,7 +307,7 @@ http://www.templatemo.com/tm-492-app-starte
 			<div class="col-md-4 col-sm-5 address wow fadeInUp" data-wow-delay="0.6s">
 				<div>
 					<h3 class="tm-contact-h3">Address</h3>
-					<p>123, Rama IX, Bangkok 12340, cameroun.</p>
+					<p>123, Rama IX, DOUALA 123, cameroun.</p>
 				</div>
 				<div>
 					<h3 class="tm-contact-h3">Email</h3>

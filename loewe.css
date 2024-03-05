@@ -1,4 +1,8 @@
 body{   
+    img {
+        width:  200px; 
+        height: auto; 
+      }
             background-image: url('total-gaz-12-5kg-79-0.jpg');
             background-repeat: repeat-x;
             background-position: center;

@@ -32,7 +32,7 @@
 
         <!-- For photo0 jpg -->
         <!--AVANT-->
-        <img src="assets/logo/photo.jpg" alt"logo">
+        <img src="assets/logo/photo.jpg" alt>
         <!--APRES-->
         <img src="logo/website template-free-css.com/Listrace-v1.0/assets/images/explore/e1.jpg"alt="logo">
       
@@ -509,7 +509,7 @@
 
 					<h2>how it works</h2>
 
-					<p>Learn More about how our website works</p>
+					<p> More about how our website works</p>
 
 				</div><!--/.section-header-->
 

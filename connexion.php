@@ -1,30 +1,35 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "test";
+// Informations de connexion à la base de données
+$servername = 'localhost';
+$nom = 'root';
+$motdepasse = '';
+$dbname = 'test';
 
-// Création de la connexion
-$conn = new mysqli($servername, $username, $password, $dbname);
+// Établir la connexion
+$conn = new mysqli($servername, $nom, $motdepasse, $dbname);
 
-// Vérification de la connexion
+// Vérifier la connexion
 if ($conn->connect_error) {
-  // N'affiche rien en cas d'échec de la connexion
-} else 
-  // Requête pour récupérer les informations de l'utilisateur
-  $sql = "SELECT * FROM formulaire WHERE username=".$_POST['username']." AND password=".$_POST['password'].";
-  $result = $conn->query($sql);
+    die('Erreur de connexion : ' . $conn->connect_error);
 }
-  if ($result->num_rows > 0) {
-    // Affichage des informations de l'utilisateur
-    while($row = $result->fetch_assoc()) {
-      echo  . $row["root"]. " - Email: " . $row["email"]. "<br>";
+
+// Vérifier les identifiants de l'utilisateur
+if (isset($_POST['nom'], $_POST['motdepasse'])) {
+    $log_username = $_POST['nom'];
+    $log_password = $_POST['motdepasse'];
+
+    // Requête SQL directe - NE PAS UTILISER EN PRODUCTION
+    $sql = "SELECT motdepasse FROM formulaire WHERE motdepasse='$log_password'";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows >  0) {
+        header('Location: bullet.php');
+        
+    } else {
+        echo "Mot de passe incorrect";
+    }
 }
- else {
-    // N'affiche rien en cas d'échec de la récupération des informations de l'utilisateur
-  
 
-
-// Fermeture de la connexion
+// Fermer la connexion
 $conn->close();
 ?>
